@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: rgb(14,16,31) !important;
+    height: 100vh;
+}
+
+html {
+    background-color: rgb(23, 21, 48);
+    padding: 20px;
+}
+
+#searchShow {
+    display: block; 
+    margin: 0 auto; 
+    width: 263px; 
+    margin-top: 10px;
+    height: 20px;
+    border: none; 
+    padding-left: 30px;
+    background-color: rgb(14,16,31);
+    color: white; 
+    font-size: 13px;
+    background: url("./img/vippng.com-white-magnifying-glass-icon-4938160.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.main-wrap {
+    background-color: rgb(14,16,31);
+}
+
+.search-bar-wrap {
+    padding-top: 30px;
+}
+
+.output-results {
+    color: white; 
+    margin-top: 30px;
+    position: relative; 
+}
+
+.hidden-text {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10%;
+    opacity: 0; 
+}
+
+.hidden-text2 {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 20%;
+    opacity: 0; 
+}
+
+.hidden-text3 {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 30%;
+    opacity: 0; 
+}
+
+.col {
+    margin-top: 30px;
+    color: white; 
+}
+
+.input-wrap {
+    margin: 0 auto; 
+    border: 1px solid white; 
+    display: table;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.close {
+    height: 15px;
+    width: 15px;
+    margin-top: 12px; 
+    opacity: 1 !important;
+    display: none; 
+}
+
+.output-wrap {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(23, 21, 48);
+    transition: all .5s;
+}
+
+.output-wrap:hover {
+    border: 1px solid white;
+    transform: scale(1.03);
+}
+
+.output-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.star {
+    display: block;
+    height: 12px; 
+    width: auto;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.rating {
+   display: inline-block;
+}
+
+.star-img {
+    height: 13px;
+    margin-top: -4px;
+}
+
+.rating-wrap {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.rating {
+    opacity: .5;
+}
+
+.genre {
+    display: block; 
+    text-align: left;
+    margin-left: 20px;
+    font-size: 13px;
+    opacity: .5;
+}
+
+.show-image:hover {
+    opacity: .2;
+    cursor: pointer;
+}
+
+.output-results:hover .img {
+    border: 1px solid white; 
+}
